@@ -3443,7 +3443,6 @@ dependencies = [
  "mime",
  "mime_guess",
  "next-custom-transforms",
- "next-transform-dynamic",
  "once_cell",
  "qstring",
  "regex",
@@ -3468,7 +3467,6 @@ dependencies = [
  "either",
  "fxhash",
  "hex",
- "next-transform-dynamic",
  "once_cell",
  "pathdiff",
  "react_remove_properties",
@@ -3478,6 +3476,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha1 0.10.5",
+ "swc_core",
  "tracing",
  "turbopack-binding",
  "walkdir",
@@ -3512,15 +3511,6 @@ dependencies = [
  "turbopack-binding",
  "url",
  "urlencoding",
-]
-
-[[package]]
-name = "next-transform-dynamic"
-version = "0.1.0"
-dependencies = [
- "pathdiff",
- "swc_core",
- "testing",
 ]
 
 [[package]]
