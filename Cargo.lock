@@ -3390,7 +3390,6 @@ dependencies = [
  "indexmap 1.9.3",
  "indoc",
  "next-core",
- "next-custom-transforms",
  "once_cell",
  "serde",
  "serde_json",
