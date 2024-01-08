@@ -3390,7 +3390,7 @@ dependencies = [
  "indexmap 1.9.3",
  "indoc",
  "next-core",
- "next-swc",
+ "next-custom-transforms",
  "once_cell",
  "serde",
  "serde_json",
@@ -3442,7 +3442,7 @@ dependencies = [
  "lazy_static",
  "mime",
  "mime_guess",
- "next-swc",
+ "next-custom-transforms",
  "next-transform-dynamic",
  "next-transform-font",
  "next-transform-react-server-components",
@@ -3461,7 +3461,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "next-swc"
+name = "next-custom-transforms"
 version = "0.0.0"
 dependencies = [
  "chrono",
@@ -3502,7 +3502,7 @@ dependencies = [
  "next-api",
  "next-build",
  "next-core",
- "next-swc",
+ "next-custom-transforms",
  "once_cell",
  "sentry",
  "serde",
@@ -8795,7 +8795,7 @@ dependencies = [
  "console_error_panic_hook",
  "getrandom",
  "js-sys",
- "next-swc",
+ "next-custom-transforms",
  "once_cell",
  "parking_lot_core 0.8.0",
  "path-clean",
