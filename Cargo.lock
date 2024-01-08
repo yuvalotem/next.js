@@ -3444,7 +3444,6 @@ dependencies = [
  "mime_guess",
  "next-custom-transforms",
  "next-transform-dynamic",
- "next-transform-strip-page-exports",
  "once_cell",
  "qstring",
  "regex",
@@ -3522,16 +3521,6 @@ dependencies = [
  "pathdiff",
  "swc_core",
  "testing",
-]
-
-[[package]]
-name = "next-transform-strip-page-exports"
-version = "0.1.0"
-dependencies = [
- "rustc-hash",
- "swc_core",
- "testing",
- "tracing",
 ]
 
 [[package]]
