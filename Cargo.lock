@@ -3444,7 +3444,6 @@ dependencies = [
  "mime_guess",
  "next-custom-transforms",
  "next-transform-dynamic",
- "next-transform-font",
  "next-transform-strip-page-exports",
  "once_cell",
  "qstring",
@@ -3471,7 +3470,6 @@ dependencies = [
  "fxhash",
  "hex",
  "next-transform-dynamic",
- "next-transform-font",
  "once_cell",
  "pathdiff",
  "react_remove_properties",
@@ -3524,16 +3522,6 @@ dependencies = [
  "pathdiff",
  "swc_core",
  "testing",
-]
-
-[[package]]
-name = "next-transform-font"
-version = "0.1.0"
-dependencies = [
- "rustc-hash",
- "serde",
- "serde_json",
- "swc_core",
 ]
 
 [[package]]
